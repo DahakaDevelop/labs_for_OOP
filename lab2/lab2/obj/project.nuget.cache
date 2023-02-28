@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ArPawagAuSQM+o7WtcAtpRUfyJPj59Xmux69i0DBGIAAwlQNDbrXeUd3TklqBRTdnxPTJmgknrLJPnQDuvPEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\typeb\\Desktop\\Parseltank\\lab2\\lab2\\lab2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\typeb\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
