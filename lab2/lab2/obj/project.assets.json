@@ -55,23 +55,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\typeb\\.nuget\\packages\\": {},
+    "C:\\Users\\dahaka\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\typeb\\Desktop\\Parseltank\\lab2\\lab2\\lab2.csproj",
+      "projectUniqueName": "C:\\Users\\dahaka\\Desktop\\OOP\\labs_for_OOP\\lab2\\lab2\\lab2.csproj",
       "projectName": "lab2",
-      "projectPath": "C:\\Users\\typeb\\Desktop\\Parseltank\\lab2\\lab2\\lab2.csproj",
-      "packagesPath": "C:\\Users\\typeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\typeb\\Desktop\\Parseltank\\lab2\\lab2\\obj\\",
+      "projectPath": "C:\\Users\\dahaka\\Desktop\\OOP\\labs_for_OOP\\lab2\\lab2\\lab2.csproj",
+      "packagesPath": "C:\\Users\\dahaka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dahaka\\Desktop\\OOP\\labs_for_OOP\\lab2\\lab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\typeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dahaka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -123,7 +123,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,8 @@
 namespace lab2
 {
     using Newtonsoft.Json;
+    using System.Windows.Forms;
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -131,7 +133,52 @@ namespace lab2
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            string Name = listBox1.Text; 
+            switch (Name)
+            {
+                case "Белорусская энциклопедия им. П. Бровки":
+                    textBox1.Text = "Издательство";
+                    maskedTextBox1.Text = "2000";
+                    textBox4.Text = "500";
+                    textBox2.Text = "10";
+                    textBox3.Text = "4";
+                    textBox5.Text = "Белорусская энциклопедия имени Петруся Бровки — научное издательство, республиканское унитарное предприятие, подведомственное Министерству информации Республики Беларусь.";
+                    break;
+                case "Белый ветер":
+                    textBox1.Text = "Издательство";
+                    maskedTextBox1.Text = "1000";
+                    textBox4.Text = "400";
+                    textBox2.Text = "9";
+                    textBox3.Text = "3";
+                    textBox5.Text = "Белорусская энциклопедия имени Петруся Бровки — научное издательство, республиканское унитарное предприятие, подведомственное Министерству информации Республики Беларусь.";
+                    break;
+                case "Мастацкая літаратура":
+                    textBox1.Text = "Издательство";
+                    maskedTextBox1.Text = "900";
+                    textBox4.Text = "300";
+                    textBox2.Text = "8";
+                    textBox3.Text = "2";
+                    textBox5.Text = "Белорусская энциклопедия имени Петруся Бровки — научное издательство, республиканское унитарное предприятие, подведомственное Министерству информации Республики Беларусь.";
+                    break;
+                case "К югу от границы, на запад от солца\r\n":
+                    textBox1.Text = "Издательство";
+                    maskedTextBox1.Text = "800";
+                    textBox4.Text = "200";
+                    textBox2.Text = "7";
+                    textBox3.Text = "1";
+                    textBox5.Text = "Белорусская энциклопедия имени Петруся Бровки — научное издательство, республиканское унитарное предприятие, подведомственное Министерству информации Республики Беларусь.";
+                    break;
+                case "Охота на овец":
+                    textBox1.Text = "Издательство";
+                    maskedTextBox1.Text = "700";
+                    textBox4.Text = "100";
+                    textBox2.Text = "6";
+                    textBox3.Text = "0";
+                    textBox5.Text = "Белорусская энциклопедия имени Петруся Бровки — научное издательство, республиканское унитарное предприятие, подведомственное Министерству информации Республики Беларусь.";
+                    break;
+                default:
+                    break;
+            }
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
@@ -180,6 +227,21 @@ namespace lab2
                     listBox1.SelectedItem = data.selectedItem;
                 }
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            switch (textBox1.Text) {
+
+                case "Пушкин":
+                    
+                    break;
+            }
+        }
+
+        private void listBox1_TabIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
